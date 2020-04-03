@@ -1,2 +1,0 @@
-# subaru
-subaru
