@@ -1,0 +1,65 @@
+body{
+
+}
+
+.t1{
+  transform: translate(0px, -40px);
+}
+
+
+/*Logo SVG */
+
+
+.svglogo{
+  padding: 10px 10px 10px 10px;
+  height: 40%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+path{
+  stroke:#fff;
+  fill:#fff;
+  stroke-dasharray:1800;
+  opacity: 10;
+  animation: animate 3s cubic-bezier(0,0.23,1,.1) ;
+
+
+}
+
+@keyframes animate{
+  0%{
+    opacity: 0;
+    fill:none;
+    stroke-dashoffset:1800;
+  }
+
+
+  30%{
+    opacity: 10;
+    fill:none;
+    stroke-dashoffset:1800;
+  }
+
+  90%{
+  fill:rgba(255, 255, 255, 0);
+  }
+
+  100%{
+    opacity: 10;
+    fill:rgba(255, 255, 255, 1);
+    stroke-dashoffset:0;
+  }
+}
+
+p{
+  color: white;
+}
+
+p:hover{
+  background-color:#FBA1BA;
+  color: black;
+
+}
